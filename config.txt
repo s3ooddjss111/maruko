@@ -1,0 +1,52 @@
+﻿// التوكن هنا
+token = NjQ4MDI0MjM3MTI2MTg5MDU2.XmXMcQ.n16D2SMq-5FOAnr1Ku9to2P3RRE
+// ايدي اونر البوت
+owner = 621785941148696587
+// البرفكس حق البوت
+prefix = V
+// البلينق الثابت حق البوت
+game = VPlay
+// حالة البوت
+status = DND
+// امر الهيلب لو تريد تعدله
+help = help
+// يبقى بلروم بعد م تخلص الاغنية
+stayinchannel = true
+// تحذير التحديثات
+updatealerts=false
+// مايحتاج اشرحه
+lyrics.default = "A-Z Lyrics"
+// اختصارات
+aliases {
+  // General commands
+  settings = [ status ]
+
+  // Music commands
+  lyrics = []
+  nowplaying = [ np, current ]
+  play = [ p ]
+  playlists = [ pls ]
+  queue = [ list ]
+  remove = [ delete ]
+  scsearch = []
+  search = [ ytsearch ]
+  shuffle = []
+  skip = [ voteskip ]
+
+  // Admin commands
+  prefix = [ setprefix ]
+  setdj = [ dj ]
+  settc = [ tc ]
+  setvc = [ vc ]
+
+  // DJ Commands
+  forceremove = [ forcedelete, modremove, moddelete ]
+  forceskip = [ fs ]
+  movetrack = [ mt ]
+  pause = []
+  playnext = [ pn]
+  repeat = [ rep ]
+  skipto = [ jumpto ]
+  stop = []
+  volume = [ vol ]
+}
